@@ -34,13 +34,13 @@ psql -U postgres
 CREATE DATABASE diagnostic;
 /q
 ```
-При необходимости изменяем настройки DATABASES в /config/settings.py
+При необходимости изменяем настройки DATABASES в /config/settings.py<br>
 Создаем суперпользователя:
 ```bash
 
 python3 manage.py createsuperuser
 ```
-к примеру (логин/пароль): admin@test.ru:admin
+к примеру (логин/пароль): admin@test.ru:admin<br>
 Выполняем миграции и запускаем тестовый сервер:
 ```bash
 
