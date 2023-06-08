@@ -1,0 +1,745 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-05-29T15:18:21.059Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Гастроэнтерология",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-05-29T15:19:31.447Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Кардиология",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-05-29T15:21:03.978Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Анализ крови",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-05-29T15:22:19.631Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "МРТ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-05-29T15:25:45.629Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Нейрохирургия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-05-29T15:27:58.797Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Ортопед",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-05-29T15:28:47.884Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Урология",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-05-29T15:30:54.389Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Хирургия",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-05-31T05:02:08.668Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Иван",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-05-31T05:05:55.095Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Мария Сотникова",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-05-31T05:07:25.371Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Андрей Знаменитый",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-05-31T05:08:43.143Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Артем Артемыч",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-05-31T05:09:43.997Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Келли Милес",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-05-31T05:11:23.534Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Светлана Светлячкова",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-05-31T05:12:29.704Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Анатолий Червяков",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-05-31T05:14:15.907Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Филип Просто",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Категория",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Категория",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Категория",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Категория",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add doctor",
+      "content_type": 8,
+      "codename": "add_doctor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change doctor",
+      "content_type": 8,
+      "codename": "change_doctor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete doctor",
+      "content_type": 8,
+      "codename": "delete_doctor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view doctor",
+      "content_type": 8,
+      "codename": "view_doctor"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "diagnostic",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "diagnostic",
+      "model": "doctor"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6mm476782jogho3kduh5foxnjb5onluu",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSHAlBZcuvcbyAwzSNWUpI-V8d-1SRe6veec-1IJt7WmbZE5jazOyqrT70aYHzLtgO843ZrObVrnkfSu6IMu-tpYnpfD_TuouNRv7aK30Hn24qXrQyckhRgMMA9mAHERCWyAvhSbA_YEJUJxzuVgoiej3h_apTek:1q3eYb:3VjFgh2vy6fpTkwwDuiHitMTevwSvWlZJF5haG47zmQ",
+      "expire_date": "2023-06-12T15:13:13.796Z"
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Гастроэнтерология",
+      "title": "Гастроэнтеролог – это врач, занимающийся разнообразными проблемами желудочно-кишечного тракта (ЖКТ), печени, желчного пузыря и поджелудочной железы. В отделении гастроэнтерологии «Hola Medical» вам окажут высококвалифицированную помощь с выбором наиболее оптимального и эффективного варианта лечения."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Кардиология",
+      "title": "В кардиологической службе Hola Medical диагностируют и решают проблемы сердечно-сосудистой системы любой сложности по международным золотым стандартам. Врачи применяют в работе навыки нескольких дисциплин, выбирая наиболее эффективные и щадящие схемы лечения, проявляя такт и уважение к пациенту."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Анализ крови",
+      "title": "Лаборатория Hola Med — инновационные инструменты  последнего поколения, уникальные для нашей страны. Мы проводим лабораторные исследования (в т.ч. срочные) различной направленности в соответствии с международными стандартами, от базового анализа крови до сложных генетических тестов. Это позволяет сэкономить Ваше время и получить полный спектр исследований и услуг за одно посещение."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 4,
+    "fields": {
+      "category_name": "МРТ",
+      "title": "Отделение лучевой диагностики  Hola Med оснащено системами последнего поколения для работы по самым актуальным международным протоколам. МРТ или магнитно-резонансная томография это современный метод лучевой диагностики, выполняется с помощью магнитно-резонансного томографа."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 5,
+    "fields": {
+      "category_name": "Нейрохирургия",
+      "title": "Команда нейрохирургов Hola Med  предлагает передовую нейрохирургическую клиническую помощь пациентам всех возрастов с широким спектром нейрохирургических состояний, расстройств и заболеваний. Пациенты имеют доступ к инновационным препаратам, уникальным для РФ, доказавшим максимальную эффективность в лечении сложных болезней"
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 6,
+    "fields": {
+      "category_name": "Ортопед",
+      "title": "В Центре ортопедии Hola Med команда травматологов-ортопедов готова помочь в выявлении и лечении заболеваний и повреждений костно-мышечной системы: артроз суставов, артрит, спортивная травма, разрывы связок или сухожилий мышц, аномалии развития суставов и костей, деформация стоп, вывихи и переломы, остеохондроз и не только."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 7,
+    "fields": {
+      "category_name": "Урология",
+      "title": "В отделении урологии Hola Med команда квалифицированных специалистов проводит диагностику и лечение заболеваний мочеполовой системы в соответствии с международными клиническими рекомендациями. Мы располагаем мощной лабораторно-диагностической базой, отвечающей всем требованиям современной онкологической и урологической службы."
+    }
+  },
+  {
+    "model": "diagnostic.category",
+    "pk": 8,
+    "fields": {
+      "category_name": "Хирургия",
+      "title": "В клинике Hola Med ведут приём первоклассные хирурги. Проводятся «малые» оперативные вмешательства в Центре амбулаторной хирургии. В нашей работе мы используем современное оборудование, инструментарий, операционный и перевязочный материал, а главное, наши доктора в своей работе основываются на международные клинические рекомендации и опыт отечественных и зарубежных коллег."
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 1,
+    "fields": {
+      "name": "Иван",
+      "surname": "Иванов",
+      "specialization": 1,
+      "image": "media/doctors/03-355x355.jpg",
+      "age": 45,
+      "experience": 5,
+      "phone": "+455782928337",
+      "email": "IvanIvanov@mail.ru"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 2,
+    "fields": {
+      "name": "Мария",
+      "surname": "Сотникова",
+      "specialization": 3,
+      "image": "media/doctors/02-355x355.jpg",
+      "age": 30,
+      "experience": 4,
+      "phone": "+478753463",
+      "email": "maria@mail.ru"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 3,
+    "fields": {
+      "name": "Андрей",
+      "surname": "Знаменитый",
+      "specialization": 2,
+      "image": "media/doctors/03-355x355_MSYTzmh.jpg",
+      "age": 18,
+      "experience": 8,
+      "phone": "+83749835",
+      "email": "andrey@mail.ru"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 4,
+    "fields": {
+      "name": "Артем",
+      "surname": "Артемыч",
+      "specialization": 4,
+      "image": "media/doctors/05-355x355.jpg",
+      "age": 30,
+      "experience": 2,
+      "phone": "+9837824872",
+      "email": "test@test.test"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 5,
+    "fields": {
+      "name": "Келли",
+      "surname": "Милес",
+      "specialization": 5,
+      "image": "media/doctors/04-355x355.jpg",
+      "age": 27,
+      "experience": 2,
+      "phone": "+8734298374",
+      "email": "test@test.test"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 6,
+    "fields": {
+      "name": "Светлана",
+      "surname": "Светлячкова",
+      "specialization": 6,
+      "image": "media/doctors/08-355x355.jpg",
+      "age": 35,
+      "experience": 8,
+      "phone": "+749823487263",
+      "email": "test@test.test"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 7,
+    "fields": {
+      "name": "Анатолий",
+      "surname": "Червяков",
+      "specialization": 7,
+      "image": "media/doctors/07-355x355.jpg",
+      "age": 40,
+      "experience": 10,
+      "phone": "+74892374823647",
+      "email": "test@test.test"
+    }
+  },
+  {
+    "model": "diagnostic.doctor",
+    "pk": 8,
+    "fields": {
+      "name": "Филип",
+      "surname": "Просто",
+      "specialization": 8,
+      "image": "media/doctors/06-355x355.jpg",
+      "age": 40,
+      "experience": 5,
+      "phone": "+3892342423472",
+      "email": "test@test.test"
+    }
+  }

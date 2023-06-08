@@ -1,0 +1,56 @@
+{% extends 'diagnostic/base.html' %}
+{% block content %}
+    {% include 'diagnostic/nav_white.html' %}
+    <header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs"
+            style="background-position: 50% 54px;">
+        <div class="container">
+            <h1>Результат поиска для: {{ name_search }}</h1>
+            <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/"><!-- Breadcrumb NavXT 7.1.0 -->
+                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                                                                       title="Go to Home."
+                                                                                       href="{% url 'diagnostic:home' %}"
+                                                                                       class="home"><span
+                        property="name">Главная</span></a><meta
+                        property="position" content="1"></span></li>
+                <li class="search current-item"><span property="itemListElement" typeof="ListItem"><span
+                        property="name"> Результат поиска для : {{ name_search }}</span><meta
+                        property="position" content="2"></span></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main-wrapper">
+        <div class="inner-page margin-default">
+            <div class="row with-sidebar">
+                {% for object in object_list %}
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 item div-thumbnail masonry-brick">
+                        <article id="post-5570"
+                                 class="post-5570 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology first instock sale shipping-taxable purchasable product-type-simple">
+                            <a href="{% url 'blog:read' object.pk %}" class="photo"><img width="770" height="535"
+                                                                                         src="/media/{{ object.image}}"
+                                                                                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                                                         alt="" decoding="async"
+                                                                                         srcset="/media/{{ object.image}} 770w, /media/{{ object.image}} 494w, /media/{{ object.image}} 130w"
+                                                                                         sizes="(max-width: 770px) 100vw, 770px"></a>
+                            <div class="description">
+                                <a href="{% url 'blog:read' object.pk %}" class="header"><h3>
+                                    {{ object.title }}</h3></a>
+                                <div class="blog-info">
+                                    <ul>
+                                        <li class="ltx-icon-date">
+                                            <a href="{% url 'blog:read' object.pk %}"
+                                               class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">{{ object.date }}</span></a>
+                                        </li>
+                                        <li class="ltx-icon-fav">
+                                            <span class="fa fa-eye"></span><i>{{ object.count }}</i>
+                                        </li>
+                                        <li class="ltx-icon-comments"><span class="fa fa-comments"></span><i>{{ object.comments.count }}</i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

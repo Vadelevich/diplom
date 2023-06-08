@@ -1,0 +1,69 @@
+{% extends 'diagnostic/base.html' %}
+{% block content %}
+    {% include 'diagnostic/nav_white.html' %}
+    <header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs"
+            style="background-position: 50% 54px;">
+        <div class="container">
+            <h1>404 Страница не найдена</h1>
+            <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/"><!-- Breadcrumb NavXT 7.1.0 -->
+                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                                                                       title="Go to Home."
+                                                                                       href="{% url 'diagnostic:home' %}"
+                                                                                       class="home"><span
+                        property="name">Главная</span></a><meta
+                        property="position" content="1"></span></li>
+                <li class="search current-item"><span property="itemListElement" typeof="ListItem"><span
+                        property="name"> 404 Страница не найдена</span><meta
+                        property="position" content="2"></span></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main-wrapper">
+        <section class="vc_section vc_custom_1502109771712 vc_section-has-fill">
+            <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true"
+                 class="vc_row wpb_row vc_row-fluid vc_custom_1502108370252 vc_row-has-fill vc_row-no-padding"
+                 style="position: relative; left: 0px; box-sizing: border-box; width: 675px; max-width: 675px;">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper">
+                            <div class="heading  heading-xl header-inline align-center color-main subcolor-second transform-default icon-type-hidden   vc_custom_1530703482843 heading-tag-h1"
+                                 id="like_sc_header_1330146634"><h1
+                                    class="header ltx-sr-id-like_sc_header_13301466341004535468 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0"
+                                    data-sr-id="1"
+                                    style="visibility: visible; transform: scale(1); opacity: 1; transition: all 0.3s;">
+                                404</h1></div>
+                            <div class="heading  heading-large header-inline align-center color-black subcolor-second transform-default icon-type-hidden   vc_custom_1530703467349 heading-tag-h4"
+                                 id="like_sc_header_279386286"><h4
+                                    class="header ltx-sr-id-like_sc_header_2793862861126580717 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0"
+                                    data-sr-id="2"
+                                    style="visibility: visible; transform: scale(1); opacity: 1; transition: all 0.3s;">
+                                Упс! Страница не найдена</h4></div>
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <p style="text-align: center;">Страница, которую вы ищете, была перемещена, удалена,<br>
+                                         переименована или, возможно, никогда не существовала.</p>
+
+                                </div>
+                            </div>
+                            <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span>
+                            </div>
+                            <div class="btn-wrap align-center"><a href="{% url 'diagnostic:home' %}"
+                                                                  class="btn  btn-xs btn-default color-hover-default align-center"
+                                                                  id="like_sc_button_218954343">Главная</a></div>
+                            <div class="es-resp">
+                                <div class="visible-xl" style="height: 90px;"></div>
+                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                     style="height: 64px;"></div>
+                                <div class="visible-md" style="height: 64px;"></div>
+                                <div class="visible-sm " style="height: 64px;"></div>
+                                <div class="visible-ms" style="height: 32px;"></div>
+                                <div class="visible-xs" style="height: 32px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vc_row-full-width vc_clearfix"></div>
+        </section>
+    </div>
+{% endblock %}

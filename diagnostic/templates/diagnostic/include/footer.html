@@ -1,0 +1,179 @@
+<section id="ltx-widgets-footer">
+    <div class="container">
+
+        <div class="subscribe-wrapper">
+            <div class="subscribe-block">
+                <section class="wpb-content-wrapper">
+                    <section class="vc_section">
+                        <div class="vc_row wpb_row vc_row-fluid">
+                            <div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-md vc_hidden-sm vc_hidden-xs">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <a class="logo ltx-logo-"
+                                                   href="http://holamed.like-themes.com/"><img
+                                                        src="//holamed.like-themes.com/wp-content/uploads/2018/11/logo_01-1.png"
+                                                        alt="Holamed"
+                                                        srcset="//holamed.like-themes.com/wp-content/uploads/2018/11/logo_01-1.png 1x,//holamed.like-themes.com/wp-content/uploads/2018/11/logo_01_2x.png 2x"></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <form action="{% url 'diagnostic:new_subsc' %}"
+                                                      class="mc4wp-form mc4wp-form-806" method="post" data-id="806"
+                                                      data-name="Subscribe Form">
+
+                                                    <div class="mc4wp-form-fields">
+                                                        <div class="input-group">
+                                                            <input type="email" name="EMAIL"
+                                                                   placeholder="Ваш email ..." required="">
+                                                            <span class="input-group-append">
+                                                                {% csrf_token %}
+        <button class="btn btn-main color-hover-gray" type="submit">Подписаться</button>
+      </span>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_hidden-xs text-align-right-lg">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12   matchHeight clearfix">
+                <div class="footer-widget-area">
+                    <div id="text-10" class="widget widget_text"><h4 class="header-widget">О нас</h4>
+                        <div class="textwidget"><p>«Пациент на первом месте» — так звучит главная
+                            ценность клиники Hola Med. Все процессы нашей
+                            организации выстраиваются вокруг пациента: его
+                            безопасности, комфорта, эффективности лечения.</p>
+                        </div>
+                    </div>
+                    <div id="ltx_icons-3" class="widget widget_ltx_icons">
+                        <ul class="social-icons-list">
+                            <li><a href="#"><span class="fa fa-phone"></span><strong> Горячая линия: </strong>+3 (092)
+                                508-38-01</a></li>
+                            <li><a href="#"><span class="fa fa-map"></span><strong> Адрес: </strong>Москва,
+                                ул.Медицинская, 6
+                            </a></li>
+                            <li><a href="#"><span class="fa fa-clock"></span><strong> Пон-Пят: </strong> 8:00 -
+                                17:00</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm hidden-md matchHeight clearfix"
+                 style="height: 481px;">
+                <div class="footer-widget-area">
+                    <div id="ltx_navmenu-4" class="widget widget_ltx_navmenu"><h4 class="header-widget">Меню</h4>
+                        <div class="menu-main-menu-container">
+                            <ul id="menu-main-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5151 current_page_item current-menu-ancestor current-menu-parent current_page_ancestor menu-item-6137">
+                                    <a href="{% url 'diagnostic:home' %}">Главная</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3557"><a
+                                        href="{% url 'diagnostic:about' %}">О нас
+                                </a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59">
+                                    <a href="{% url 'blog:list' %}">Блог</a></li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"><a
+                                        href="{% url 'diagnostic:galery' %}">Галерея</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a
+                                        href="{% url 'diagnostic:contact' %}">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="text-11" class="widget widget_text">
+                        <div class="textwidget"><p><a href="{% url 'diagnostic:contact' %}"
+                                                      class="btn color-hover-white">Связаться с нами</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm  matchHeight clearfix">
+                <div class="footer-widget-area">
+                    <div id="ltx_blogposts-9" class="widget widget_ltx_blogposts"><h4 class="header-widget">Последние
+                        новости</h4>
+                        <div class="items">
+                            <div class="post"><a
+                                    href="{% url 'blog:list' %}"
+                                    class="photo photo-left"><img width="128" height="84"
+                                                                  src="http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_02-1-128x84.jpg"
+                                                                  class="attachment-holamed-blog-tiny size-holamed-blog-tiny wp-post-image"
+                                                                  alt="" decoding="async" loading="lazy"
+                                                                  srcset="http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_02-1-128x84.jpg 128w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_02-1-300x195.jpg 300w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_02-1-755x500.jpg 755w"
+                                                                  sizes="(max-width: 128px) 100vw, 128px"></a>
+                                <div class="descr-right">
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li class="ltx-icon-date">
+                                                <a href="{% url 'blog:list' %}"
+                                                   class="ltx-date"><span class="fa fa-clock"></span><span class="dt">November 7, 2018</span></a>
+                                            </li>
+                                            <li class="">
+                                                <span class="fa fa-eye-dropper"></span><i>197</i>
+                                            </li>
+                                            <li class="ltx-icon-comments"><span class="fa fa-comments"></span><i>6</i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="{% url 'blog:list' %}">
+                                        <h6>Лучшие зоны отдыха для общего иммунитета</h6></a></div>
+                            </div>
+                            <div class="post"><a
+                                    href="{% url 'blog:list' %}"
+                                    class="photo photo-left"><img width="128" height="84"
+                                                                  src="http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-128x84.jpg"
+                                                                  class="attachment-holamed-blog-tiny size-holamed-blog-tiny wp-post-image"
+                                                                  alt="" decoding="async" loading="lazy"
+                                                                  srcset="http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-128x84.jpg 128w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-300x195.jpg 300w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-1536x1025.jpg 1536w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-340x227.jpg 340w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-125x83.jpg 125w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01-755x500.jpg 755w, http://holamed.like-themes.com/wp-content/uploads/2018/11/blog_01.jpg 1600w"
+                                                                  sizes="(max-width: 128px) 100vw, 128px"/></a>
+                                <div class="descr-right">
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li class="ltx-icon-date">
+                                                <a href="{% url 'blog:list' %}"
+                                                   class="ltx-date"><span class="fa fa-clock"></span><span class="dt">November 7, 2018</span></a>
+                                            </li>
+                                            <li class="">
+                                                <span class="fa fa-eye-dropper"></span><i>117</i>
+                                            </li>
+                                            <li class="ltx-icon-comments"><span class="fa fa-comments"></span><i>1</i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="{% url 'blog:list' %}">
+                                        <h6>Как женщины могут защитить себя от рака молочной железы</h6></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

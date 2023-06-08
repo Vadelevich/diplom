@@ -1,0 +1,48 @@
+{% extends 'diagnostic/base.html' %}
+{% block content %}
+    {% include 'diagnostic/nav_white.html' %}
+    <header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+        <div class="container">
+            <h1>Галерея</h1>
+            <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/"><!-- Breadcrumb NavXT 7.1.0 -->
+                <li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
+                                                                                       title="Go to Home."
+                                                                                       href="{% url 'diagnostic:home' %}"
+                                                                                       class="home"><span
+                        property="name">Главная</span></a><meta
+                        property="position" content="1"></span></li>
+                <li class="post post-page current-item"><span property="itemListElement" typeof="ListItem"><span
+                        property="name">Галерея</span><meta property="position" content="2"></span></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main-wrapper">
+        <div class="gallery-page inner-page margin-default gallery-col-2">
+            <div class="row ">
+            {% regroup object_list by category as groups %}
+                {% for group in groups %}
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-ms-6 matchHeight">
+                        <article class="item ">
+                            {% for item in group.list %}
+                                {% if forloop.first %}
+                            <a href="{% url 'diagnostic:gallery_detail' item.category_id %}" class="photo"><img width="755"
+                                                          height="500"
+                                                          srcset="/media/{{ item.img}} 755w, /media/{{ item.img }} 300w, /media/{{ item.img }} 128w, /media/{{ item.img }} 125w"
+                                                          sizes="(max-width: 755px) 100vw, 755px"/></a>
+                                {% endif %}
+                                {% endfor %}
+                            <div class="descr">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h5 class="header">{{ group.grouper }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
